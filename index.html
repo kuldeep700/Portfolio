@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <wrap>
+        <title>Kuldeep Keshri | Portfolio</title>
+    </wrap>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    
+    <!-- Devicon CDN for Technology Logos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0207c9ae1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <ul id="nav-links">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- Theme Toggle Button -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="theme-checkbox">
+            <input type="checkbox" id="theme-checkbox">
+            <div class="slider">
+                <i class="fa-solid fa-sun sun-icon"></i>
+                <i class="fa-solid fa-moon moon-icon"></i>
+            </div>
+        </label>
+    </div>
+            </nav>
+            
+            <div class="header-text">
+                <p id="subtitle" class="typing-effect"></p>
+                <h1 class="glitch" data-text="Hi, I'm Kuldeep  Keshri">Hi, I'm <span>Kuldeep<br>Keshri</span></h1>
+                <p class="description"> Full Stack Developer | Problem Solver</p>
+                
+                <div class="social-links">
+                    <a href="https://www.threads.com/@kuldeep_keshri7" target="_blank" class="social-icon"><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://github.com/kuldeep700" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kuldeep-keshri-24a9822b6/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/kuldeep_keshri7/" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="images\kuldeep resume2.pdf" class="resume-btn glow-btn" download>
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="contact-btn">
+                        <i class="fa-solid fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1" data-aos="fade-right">
+                <div class="profile-image-wrapper">
+                    <div class="profile-ring"></div>
+                    <img src="images/user.jpeg" alt="Kuldeep keshri" class="profile-img">
+                </div>
+            </div>
+            <div class="about-col2" data-aos="fade-left">
+                <h1 class="subtitle">About Me</h1>
+                <p class="about-description">
+                    Hi, I'm <strong>Kuldeep Keshri</strong>, a third-year Engineering student at 
+                    <strong>United Institute of Technology, Prayagraj</strong>. I have a passion for software development, 
+                    specializing in <strong>DSA, and the MERN stack</strong>. My focus is on preparing for software placements and 
+                    improving my skills in development.
+                </p>
+                
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <h3>7.6</h3>
+                        <p>CGPA</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>5+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>100+</h3>
+                        <p>Problems Solved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Coding Stats Section -->
+<section id="coding-stats">
+    <div class="container">
+        <h2 class="subtitle">Coding Statistics</h2>
+        <p class="section-description">My journey in competitive programming and open source</p>
+        
+        <div class="stats-grid">
+            <!-- GitHub Stats Card -->
+            <div class="stat-card github-card" data-aos="zoom-in">
+                <div class="stat-header">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub Stats</h3>
+                </div>
+                <div class="stat-content">
+                    <img src="https://github-readme-stats.vercel.app/api?username=manishcodesq&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=6ee7d8&icon_color=f6c177&text_color=ecfeff&ring_color=6ee7d8" 
+                         alt="GitHub Stats"
+                         loading="lazy">
+                </div>
+                <a href="https://github.com/kuldeep700?tab=repositories" target="_blank" class="stat-link">
+                    View Profile <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+           <!-- GitHub Streak Stats -->
+<div class="stat-card streak-card" data-aos="zoom-in" data-aos-delay="100">
+    <div class="stat-header">
+        <i class="fa-solid fa-fire"></i>
+        <h3>GitHub Streak</h3>
+    </div>
+    <div class="stat-content">
+        <img src="https://github.com/kuldeep700?tab=repositories" 
+             alt="GitHub Streak"
+             loading="lazy">
+    </div>
+    <a href="https://github.com/kuldeep700?tab=repositories" target="_blank" class="stat-link">
+        View Profile <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
+
+
+            <!-- Top Languages -->
+            <div class="stat-card languages-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Most Used Languages</h3>
+                </div>
+                <div class="stat-content">
+                    <img src="https://github.com/kuldeep700?tab=repositories" 
+                         alt="Top Languages"
+                         loading="lazy">
+                </div>
+                <a href="https://github.com/kuldeep700?tab=repositories" target="_blank" class="stat-link">
+                    View Repositories <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- LeetCode Stats -->
+            <div class="stat-card leetcode-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-header">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h3>LeetCode Stats</h3>
+                </div>
+                <div class="stat-content">
+                    <img src="https://leetcode.com/kuldeepkeshri08/progress/" 
+                         alt="LeetCode Stats"
+                         loading="lazy">
+                </div>
+                <a href="https://leetcode.com/u/kuldeepkeshri08/" target="_blank" class="stat-link">
+                    View Profile <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Quick Stats Banner -->
+        <div class="quick-stats-banner" data-aos="fade-up">
+            <div class="quick-stat">
+                <i class="fa-solid fa-code-commit"></i>
+                <div class="quick-stat-info">
+                    <h4>Daily Commits</h4>
+                    <p>Building consistently</p>
+                </div>
+            </div>
+            <div class="quick-stat">
+                <i class="fa-solid fa-trophy"></i>
+                <div class="quick-stat-info">
+                    <h4>Problem Solver</h4>
+                    <p>100+ problems solved</p>
+                </div>
+            </div>
+            <div class="quick-stat">
+                <i class="fa-brands fa-osi"></i>
+                <div class="quick-stat-info">
+                    <h4>Open Source</h4>
+                    <p>Hacktoberfest contributor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Skills Section with Logos -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">Skills & Technologies</h1>
+        <p class="section-description">Technologies I work with</p>
+        
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-category" data-aos="fade-up">
+                <h2><i class="fa-solid fa-code"></i> Programming Languages</h2>
+                <div class="tech-icons">
+                    <div class="tech-item">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <span>C</HTml></span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-python-plain colored"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h2><i class="fa-solid fa-laptop-code"></i> Web Development</h2>
+                <div class="tech-icons">
+                    <div class="tech-item">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-css3-plain colored"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-react-original colored"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-express-original"></i>
+                        <span>Express</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-mongodb-plain colored"></i>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h2><i class="fa-solid fa-palette"></i> UI/UX Design</h2>
+                <div class="tech-icons">
+                   
+                    <div class="tech-item">
+                        <i class="devicon-canva-original colored"></i>
+                        <span>Canva</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Version Control & Deployment -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h2><i class="fa-solid fa-code-branch"></i> Version Control & Deployment</h2>
+                <div class="tech-icons">
+                    <div class="tech-item">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-github-original"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="devicon-vercel-original colored"></i>
+                        <span>Vercel</span>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="subtitle">My Projects</h2>
+            <p class="section-description">Here are some of the projects I have built using Java and frontend technologies</p>
+            
+            <div class="project-lists">
+                <div class="project-item" data-aos="flip-left">
+                    <div class="image-placeholder">
+                        <img src="images/Screenshot 2025-03-11 213406.png" alt="Spotify Clone Project">
+                        <div class="project-overlay">
+                            <a href="#projects" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Spotify Clone</h3>
+                        <p>A responsive Spotify clone created with HTML and CSS that recreates the look and feel of the music platform with a clean layout, playlist sections, and modern UI styling.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive Design</span>
+                            <span>UI Design</span>
+                        </div>
+                        <a href="#projects" class="btn">
+                            <i class="fa-solid fa-folder-open"></i> Project Overview
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-aos="flip-left" data-aos-delay="200">
+                    <div class="image-placeholder">
+                        <img src="images/abc.png" alt="Employee Management System Project">
+                        <div class="project-overlay">
+                            <a href="#projects" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Employee Management System</h3>
+                        <p>A desktop-based employee management system built with Java GUI to manage employee records, organize information efficiently, and provide an easy-to-use interface for administrative tasks.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Java GUI</span>
+                            <span>Swing</span>
+                            <span>OOP</span>
+                        </div>
+                        <a href="#projects" class="btn">
+                            <i class="fa-solid fa-folder-open"></i> Project Overview
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-item" data-aos="flip-left" data-aos-delay="400">
+                    <div class="image-placeholder">
+                        <img src="images/def.png" alt="Netflix Clone Project">
+                        <div class="project-overlay">
+                            <a href="#projects" class="overlay-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Netflix Clone</h3>
+                        <p>A Netflix-inspired web project built using HTML, CSS, and JavaScript with interactive sections, engaging visuals, and a user interface designed to resemble the original streaming platform.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Frontend</span>
+                        </div>
+                        <a href="#projects" class="btn">
+                            <i class="fa-solid fa-folder-open"></i> Project Overview
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="subtitle">Get In Touch</h2>
+            <p class="section-description">Feel free to reach out for collaborations or just a friendly chat</p>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>kuldeepkeshri08@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 ************</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Prayagraj UttarPradesh</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" required>
+                        <label><i class="fa-solid fa-user"></i> Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required>
+                        <label><i class="fa-solid fa-envelope"></i> Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" required></textarea>
+                        <label><i class="fa-solid fa-message"></i> Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Hobbies Section -->
+<section id="favorites">
+    <div class="container">
+        <h2 class="subtitle">Beyond Coding</h2>
+        <p class="section-description">Activities that keep me active, focused, and recharged</p>
+        
+        <div class="favorites-grid">
+            <!-- Cricket Card -->
+            <div class="favorite-card" data-aos="flip-up">
+                <div class="card-shine"></div>
+                <div class="show-logo">
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20Modern%20Cricket%20Bat.jpg" alt="Cricket bat">
+                </div>
+                <div class="show-info">
+                    <h3>Playing Cricket</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>Favorite Outdoor Game</span>
+                    </div>
+                    <p class="show-tagline">Energy, teamwork, and presence of mind</p>
+                    <p class="show-description">
+                        Cricket helps me stay disciplined and competitive. I enjoy the strategy, quick decision-making, and team coordination that come with every match.
+                    </p>
+                    <div class="show-stats">
+                        <div class="stat">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Team Spirit</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Sharp Focus</span>
+                        </div>
+                    </div>
+                    <div class="show-links">
+                        <a href="#projects" class="show-btn imdb-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Projects
+                        </a>
+                        <a href="#contact" class="show-btn wiki-btn">
+                            <i class="fa-solid fa-envelope"></i> Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indoor Games Card -->
+            <div class="favorite-card" data-aos="flip-up" data-aos-delay="200">
+                <div class="card-shine"></div>
+                <div class="show-logo">
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Carrom%20Board.JPG" alt="Carrom board">
+                </div>
+                <div class="show-info">
+                    <h3>Carrom & Ludo</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>Favorite Indoor Games</span>
+                    </div>
+                    <p class="show-tagline">Fun, focus, and friendly competition</p>
+                    <p class="show-description">
+                        Games like carrom and ludo help me unwind while keeping my mind active. I enjoy the mix of strategy, patience, and fun competition with friends and family.
+                    </p>
+                    <div class="show-stats">
+                        <div class="stat">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <span>Smart Moves</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fa-solid fa-dice"></i>
+                            <span>Fun Time</span>
+                        </div>
+                    </div>
+                    <div class="show-links">
+                        <a href="#about" class="show-btn imdb-btn">
+                            <i class="fa-solid fa-user"></i> About Me
+                        </a>
+                        <a href="#services" class="show-btn wiki-btn">
+                            <i class="fa-solid fa-code"></i> My Skills
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="fun-quote">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>"Cricket builds my team spirit, indoor games sharpen my strategy, and coding lets me turn both into solutions."</p>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Kuldeep keshri| © 2026 All Rights Reserved</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
